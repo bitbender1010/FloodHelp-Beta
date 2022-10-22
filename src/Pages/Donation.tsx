@@ -1,7 +1,7 @@
 import Nav from "../components/nav";
 import "../styles/donation.css";
-// import { AiOutlineSearch } from "react-icons/ai";
-// import { BsFillFlagFill } from "react-icons/bs";
+import { AiOutlineSearch } from "react-icons/ai";
+import { BsFillFlagFill } from "react-icons/bs";
 import Footer from "../components/footer";
 import Register from "../components/register";
 
@@ -16,7 +16,7 @@ const Donation = () => {
 
 
         <div className="input">
-          {/* <AiOutlineSearch className="dIcon" /> */}
+          <AiOutlineSearch className="dIcon" />
           <input type="text" placeholder="search NGOs and Location"/>
         </div>
 
@@ -219,7 +219,7 @@ const Donation = () => {
         </div>
 
         <p className="bP">
-          {/* End of result <BsFillFlagFill /> */}
+          End of result <BsFillFlagFill />
         </p>
       </div>
       <div className="rg">

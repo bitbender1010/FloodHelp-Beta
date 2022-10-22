@@ -1,6 +1,6 @@
 import React from "react";
 import "../App.css";
-// import { BsPlay, BsArrowRightCircle } from "react-icons/bs";
+import { BsPlay, BsArrowRightCircle } from "react-icons/bs";
 import Nav from "../components/nav";
 import Donate from "../components/donate";
 import Register from "../components/register";
@@ -25,7 +25,7 @@ function Home() {
           <div className="btn">
             <button>Donate Now</button>
             <div className="play">
-              {/* <BsPlay className="icon" /> */}
+              <BsPlay className="icon" />
             </div>
           </div>
         </div>
@@ -79,7 +79,7 @@ function Home() {
               such as rice, beans, noodles, water purification tabs.
             </p>
             <a href="/">
-              {/* Learn more <BsArrowRightCircle className="abtIcon" /> */}
+              Learn more <BsArrowRightCircle className="abtIcon" />
             </a>
           </div>
           <div className="capCon">
@@ -91,7 +91,7 @@ function Home() {
               such as rice, beans, noodles, water purification tabs.
             </p>
             <a href="/">
-              {/* Learn more <BsArrowRightCircle className="abtIcon" /> */}
+              Learn more <BsArrowRightCircle className="abtIcon" />
             </a>
           </div>
           <div className="capCon">
@@ -103,7 +103,7 @@ function Home() {
               such as rice, beans, noodles, water purification tabs.
             </p>
             <a href="/">
-              {/* Learn more <BsArrowRightCircle className="abtIcon" /> */}
+              Learn more <BsArrowRightCircle className="abtIcon" />
             </a>
           </div>
         </div>
