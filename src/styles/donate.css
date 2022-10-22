@@ -1,0 +1,162 @@
+.donate {
+  max-width: 1440px;
+  margin: 10em auto 2em;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.donate h2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 45px;
+}
+.donate h2 span {
+  color: #0099ff;
+}
+
+.donateCap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.dCap {
+  width: 340px;
+  height: 550px;
+  background: #f2f2f2;
+  border-radius: 10px;
+  margin-bottom: 2em;
+  padding: 1em;
+}
+
+.dCap img {
+  width: 100%;
+  height: 190px;
+}
+.dCap h3 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 33px;
+  color: #000000;
+  margin: 2em 0 15px;
+}
+.dCap p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  margin: 0 0 12px;
+}
+.prog {
+  width: 306px;
+  height: 10px;
+  background: #a7a4a4;
+  border-radius: 50px;
+  position: relative;
+}
+.progg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 127px;
+  height: 10px;
+  background: #0099ff;
+  border-radius: 50px;
+}
+.goal {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.amt {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin-top: 1em;
+}
+.amt strong {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+
+  color: #000000;
+}
+.amt span {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: right;
+  color: #000000;
+}
+
+.organize {
+  margin-top: 2em;
+}
+.organize p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  color: #000000;
+  margin: 0;
+}
+.organize span {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: right;
+  color: #000000;
+}
+
+.donate button {
+  width: 400px;
+  height: 60px;
+  margin: 6em auto 10em;
+  background-color: #fff;
+  border: 2px solid #0099ff;
+  border-radius: 5px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 33px;
+  color: #0099ff;
+}
+
+@media (max-width: 1440px) {
+  .donate {
+    max-width: 98%;
+  }
+}
+
+@media (max-width: 1200px) {
+  .donateCap {
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 1em;
+  }
+}
+
+
+@media (max-width: 500px) {
+    .prog {
+      width: 96%;
+    }
+
+    .donate button{
+      width: 200px;
+    }
+}
