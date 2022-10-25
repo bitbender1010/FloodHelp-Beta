@@ -12,6 +12,7 @@
   font-weight: 600;
   font-size: 30px;
   line-height: 45px;
+  padding: 0px 10%;
 }
 .donate h2 span {
   color: #0099ff;
@@ -21,9 +22,10 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 0px 10%;
 }
 .dCap {
-  width: 340px;
+  width: 280px;
   height: 550px;
   background: #f2f2f2;
   border-radius: 10px;
@@ -53,7 +55,7 @@
   margin: 0 0 12px;
 }
 .prog {
-  width: 306px;
+  width: 100%;
   height: 10px;
   background: #a7a4a4;
   border-radius: 50px;

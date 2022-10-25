@@ -46,19 +46,19 @@ function Home() {
             </div>
           </div>
           <div className="secCap">
-            <img src="fhh4.png" alt="icon" />
+            <img src="fhh3.png" alt="icon" />
 
             <div className="secText">
-              <p>50+</p>
-              <span>Dontions Recieved</span>
+              <p>2,000+</p>
+              <span>Lives Impacted</span>
             </div>
           </div>
           <div className="secCap">
-            <img src="fhh4.png" alt="icon" />
+            <img src="fhh2.png" alt="icon" />
 
             <div className="secText">
-              <p>50+</p>
-              <span>Dontions Recieved</span>
+              <p>12+</p>
+              <span>Active Campaigns</span>
             </div>
           </div>
         </div>
@@ -83,9 +83,9 @@ function Home() {
             </a>
           </div>
           <div className="capCon">
-            <img src="fhh1.png" alt="" />
+            <img src="fhh3.png" alt="" />
 
-            <h2>Donations</h2>
+            <h2>Awareness</h2>
             <p>
               We are fundraising to provide relief materials, including food
               such as rice, beans, noodles, water purification tabs.
@@ -95,9 +95,9 @@ function Home() {
             </a>
           </div>
           <div className="capCon">
-            <img src="fhh1.png" alt="" />
+            <img src="fhh2.png" alt="" />
 
-            <h2>Donations</h2>
+            <h2>Volunteering</h2>
             <p>
               We are fundraising to provide relief materials, including food
               such as rice, beans, noodles, water purification tabs.
