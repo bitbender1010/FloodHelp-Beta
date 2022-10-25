@@ -277,7 +277,7 @@ body {
   .header,
   .aboutTopp,
   .about {
-    max-width: 98%;
+    max-width: 100%;
   }
 }
 
@@ -318,10 +318,15 @@ body {
     margin-right: auto;
     width: 650px;
   }
+
   .headImg {
-    margin-top: 2em;
-    margin-left: auto;
+    margin-top: 10em;
   }
+
+  .nav {
+    padding: 0 2em;
+  }
+
 }
 
 @media (max-width: 900px) {
@@ -399,10 +404,10 @@ body {
 
 @media (max-width: 500px) {
   .header {
-    padding: 0 .2em;
+    padding: 0 20px;
   }
   .headImg {
-    width: 98%;
+    width: 100%;
   }
   .headImg img {
     width: 100%;
@@ -415,4 +420,13 @@ body {
   .capCon{
     width: 90%;
   }
+
+  .nav {
+    padding: 0 10px;
+  }
+
+  .text p, .text h2 {
+    padding: 0px;
+  }
+
 }

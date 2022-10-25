@@ -34,6 +34,9 @@ const Faq = () => {
           </span>
         </div>
       ))}
+
+
+
     </div>
   );
 };
