@@ -1,7 +1,15 @@
 .faq {
   max-width: 1440px;
   width: 100%;
-  margin: 8em auto;
+  margin: 13em auto;
+}
+
+.faqqq {
+  padding: 0px 10%;
+}
+
+.faqqq h2 span {
+  color: #0099ff;
 }
 
 .faq h2 {
@@ -14,15 +22,15 @@
   margin: 0 0 3em;
 }
 .question {
-  height: 100px;
+  height: 80px;
   background: #f2f2f2;
   border-radius: 10px;
-  padding: 0 1.4em 1em;
+  padding: 0 1.5em;
   margin-bottom: 2em;
   transition: all .3s ease;
+  /* margin: 0px 10px; */
 }
 .show {
-  width: 100%;
   background: #f2f2f2;
   border-radius: 10px;
   padding: 0 1.4em 1em;
@@ -33,26 +41,34 @@
 }
 
 .quesionTitle {
-  width: 100%;
+  /* width: 100%;
   height: 100px;
   background: #f2f2f2;
-  border-radius: 10px;
+  border-radius: 10px; */
   display: flex;
   align-items: center;
   justify-content: space-between;
   cursor: pointer;
+  position: relative;
+  top: 18px;
 }
 
 .quesionTitle p {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
-  font-size: 28px;
+  font-size: 22px;
   line-height: 42px;
   color: #000000;
+  margin: 0px;
 }
+
+.questionTitle span {
+  display: flex;
+}
+
 .faqIcon {
-  font-size: 50px;
+  font-size: 40px;
   color: #0099ff;
 }
 
@@ -60,8 +76,7 @@
   font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
-  font-size: 25px;
-  line-height: 38px;
+  font-size: 22px;
   color: #000000;
   display: none;
   transition: all 6s ease;
@@ -70,23 +85,24 @@
    font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
-  font-size: 25px;
-  line-height: 38px;
+  font-size: 20px;
   color: #000000;
   display: block;
   transition: all 6s ease;
-
+  margin-top: 40px;
 }
 
+/*
 @media (max-width: 1440px) {
   .faq{
     max-width: 95%; 
   }
-  .show {
+  /* .show {
     max-width: 90%; 
 
   }
-}
+} */
+
 @media (max-width: 500px) {
   .quesionTitle p{
     font-size: 20px;

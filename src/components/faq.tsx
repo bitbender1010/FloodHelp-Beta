@@ -14,8 +14,8 @@ const Faq = () => {
   };
 
   return (
-    <div className="faq">
-      <h2>Frequently asked questions?</h2>
+    <div className="faqqq">
+      <h2> <span>Frequently </span>asked questions?</h2>
 
       {data.map((user, i) => (
         <div className={open === i ? "show" : "question"} key={user.id}>

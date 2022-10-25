@@ -3,6 +3,7 @@ import '../styles/register.css'
 
 const Register = () => {
   return (
+    <div className='register-parent'>
     <div className="register">
       <img src="f2.png" alt="" className='top'/>
       <div className="bottom">
@@ -14,6 +15,7 @@ const Register = () => {
         </p>
         <button>Register NGO</button>
       </div>
+    </div>
     </div>
   );
 }
