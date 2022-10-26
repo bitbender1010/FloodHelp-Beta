@@ -1,6 +1,6 @@
 import React from "react";
 import "../App.css";
-// import { BsPlay, BsArrowRightCircle } from "react-icons/bs";
+import { BsPlay, BsArrowRightCircle } from "react-icons/bs";
 import Nav from "../components/nav";
 import Donate from "../components/donate";
 import Register from "../components/register";
@@ -25,7 +25,7 @@ function Home() {
           <div className="btn">
             <button>Donate Now</button>
             <div className="play">
-              {/* <BsPlay className="icon" /> */}
+              <BsPlay className="icon" />
             </div>
           </div>
         </div>
@@ -46,19 +46,19 @@ function Home() {
             </div>
           </div>
           <div className="secCap">
-            <img src="fhh4.png" alt="icon" />
+            <img src="fhh3.png" alt="icon" />
 
             <div className="secText">
-              <p>50+</p>
-              <span>Dontions Recieved</span>
+              <p>2,000+</p>
+              <span>Lives Impacted</span>
             </div>
           </div>
           <div className="secCap">
-            <img src="fhh4.png" alt="icon" />
+            <img src="fhh2.png" alt="icon" />
 
             <div className="secText">
-              <p>50+</p>
-              <span>Dontions Recieved</span>
+              <p>12+</p>
+              <span>Active Campaigns</span>
             </div>
           </div>
         </div>
@@ -79,31 +79,31 @@ function Home() {
               such as rice, beans, noodles, water purification tabs.
             </p>
             <a href="/">
-              {/* Learn more <BsArrowRightCircle className="abtIcon" /> */}
+              Learn more <BsArrowRightCircle className="abtIcon" />
             </a>
           </div>
           <div className="capCon">
-            <img src="fhh1.png" alt="" />
+            <img src="fhh3.png" alt="" />
 
-            <h2>Donations</h2>
+            <h2>Awareness</h2>
             <p>
               We are fundraising to provide relief materials, including food
               such as rice, beans, noodles, water purification tabs.
             </p>
             <a href="/">
-              {/* Learn more <BsArrowRightCircle className="abtIcon" /> */}
+              Learn more <BsArrowRightCircle className="abtIcon" />
             </a>
           </div>
           <div className="capCon">
-            <img src="fhh1.png" alt="" />
+            <img src="fhh2.png" alt="" />
 
-            <h2>Donations</h2>
+            <h2>Volunteering</h2>
             <p>
               We are fundraising to provide relief materials, including food
               such as rice, beans, noodles, water purification tabs.
             </p>
             <a href="/">
-              {/* Learn more <BsArrowRightCircle className="abtIcon" /> */}
+              Learn more <BsArrowRightCircle className="abtIcon" />
             </a>
           </div>
         </div>
