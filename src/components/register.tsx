@@ -11,7 +11,9 @@ const Register = () => {
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Rutrum
           viverra tellus, amet proin in semper arcu. Leo quis vitae scelerisque
-          erat urna,i
+          erat urna. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Rutrum
+          viverra tellus, amet proin in semper arcu. Leo quis vitae scelerisque
+          erat urna.
         </p>
         <button>Register NGO</button>
       </div>

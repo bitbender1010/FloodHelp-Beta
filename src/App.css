@@ -271,7 +271,7 @@ body {
 }
 
 /* Media query  */
-
+/* 
 @media (max-width: 1440px) {
   .nav,
   .header,
@@ -279,7 +279,7 @@ body {
   .about {
     max-width: 100%;
   }
-}
+} */
 
 @media (max-width: 1200px) {
   .text {
