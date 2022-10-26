@@ -7,6 +7,8 @@ import Register from "../components/register";
 import Faq from "../components/faq";
 import Footer from "../components/footer";
 
+
+
 function Home() {
   return (
     <div className="App">
