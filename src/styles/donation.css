@@ -4,8 +4,9 @@
 }
 .dHeader {
   max-width: 1440px;
-  width: 100%;
+  /* width: 100%; */
   margin: 4em auto;
+  padding: 0px 10%;
 }
 
 .dHeader h2 {
@@ -24,7 +25,7 @@
 }
 
 .input {
-  width: 90%;
+  width: -webkit-fill-available;
   height: 80px;
   background: #f2f2f2;
   border-radius: 10px;
@@ -65,8 +66,13 @@
   align-items: center;
   justify-content: flex-start;
 }
-.location {
+/* .location {
   margin-right: 2em;
+} */
+
+.location {
+  margin-bottom: 50px;
+  margin-right: 50px;
 }
 
 .location p {
@@ -94,6 +100,13 @@
   /* identical to box height */
   color: #000000;
   outline: none;
+  cursor: pointer;
+}
+
+select {
+  content: '';
+  font-size: 20px;
+  background-size: 20px;
 }
 
 .bP {
@@ -110,13 +123,13 @@
   margin: 4em 0 15%;
 }
 
-@media (max-width: 1440px) {
+/* @media (max-width: 1440px) {
   .dHeader {
     max-width: 95%;
   }
 
 
-}
+} */
 
 @media (max-width: 768px) {
   .dHeader h2{
@@ -130,7 +143,7 @@
     margin-bottom: 1em;
   }
   .input {
-    width: 50px;
+    /* width: 50px; */
     cursor: pointer;
   }
   .input input{
@@ -140,15 +153,21 @@
     flex-wrap: wrap;
     width: 100%;
   }
+
   .location{
-    width: 100%;
-    margin:  0 2em 1.5em 0 ;
+    width: -webkit-fill-available;
+    /* margin:  0 2em 1.5em 0 ; */
+    margin-right: 0px;
   }
   .location select{
     width: 95%;
   }
   .dCap{
     width: 95%;
+  }
+
+  .dHeader {
+    padding: 0px 20px;
   }
   
 }

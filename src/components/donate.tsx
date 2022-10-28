@@ -189,7 +189,10 @@ const Donate = () => {
 
       </div>
 
+      <a href="/donation" className="btn-link">
       <button>See more</button>
+      </a>
+
     </div>
   );
 };

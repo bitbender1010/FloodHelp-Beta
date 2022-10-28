@@ -40,7 +40,7 @@
   font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 22px;
   margin: 0 0 50px;
   color: #ffffff;
   padding-right: 20%;
@@ -90,4 +90,10 @@
     line-height: 30px;
     padding-right: 0px;
   } 
+}
+
+@media (max-width: 500px) {
+  .register-parent {
+    padding: 0 20px;
+  }
 }

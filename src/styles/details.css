@@ -7,8 +7,8 @@
 
 .details > div {
   max-width: 1440px;
-  width: 100%;
-  margin: auto;
+  margin: 10px auto;
+  padding: 0px 10%;
 }
 
 .h22 {
@@ -18,7 +18,7 @@
   font-weight: 600;
   font-size: 30px;
   line-height: 45px;
-  margin: 0 0 2em;
+  margin: 2em 0 1em;
   color: #000000;
 }
 
@@ -26,17 +26,18 @@
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
-  width: 100%;
+  /* width: 100%; */
   height: 100%;
+  gap: 10%;
 }
 .lef {
-  width: 780px;
+  width: 100%;
   border-radius: 25px;
 }
 
 .lef img {
   width: 100%;
-  height: 423px;
+  height: auto;
   margin-bottom: 3em;
   border-radius: 20px;
 }
@@ -86,7 +87,7 @@
   font-family: "Poppins";
   font-style: normal;
   font-weight: 600;
-  font-size: 30px;
+  font-size: 20px;
   line-height: 45px;
   color: #000000;
 }
@@ -96,7 +97,7 @@
   align-items: flex-start;
   justify-content: flex-start;
   gap: 1em;
-  margin-bottom: 1em;
+  margin-bottom: 3em;
 }
 
 .orgaN img {
@@ -108,11 +109,11 @@
 .pp {
   margin: 0 0 30px !important;
 }
-.name {
+/* .name {
   width: 600px;
-}
+} */
 .name p {
-  margin: 0 0 10px;
+  margin: 0;
   font-family: "Poppins";
   font-style: normal;
   font-weight: 600;
@@ -140,8 +141,8 @@
 }
 
 .rig {
-  width: 444px;
-    height: 100%;
+  width: 450px;
+  height: 100%;
   background: #ffffff;
   border: 1px solid #a7a4a4;
   border-radius: 10px;
@@ -150,7 +151,7 @@
 }
 
 .proG {
-  width: 367px;
+  width: 100%;
   height: 20px;
   position: relative;
   background: #a7a4a4;
@@ -191,7 +192,7 @@
   color: #000000;
 }
 .btnD {
-  width: 385px;
+  width: 100%;
   height: 60px;
   font-family: "Poppins";
   font-style: normal;
@@ -208,7 +209,7 @@
 }
 
 .btnW {
-  width: 385px;
+  width: 100%;
   height: 60px;
   background: #ffffff;
   border: 2px solid #0099ff;
@@ -243,18 +244,20 @@
     margin: 4em auto 8em !important;
 }
 
-
+.supp h2 {
+  font-size: 20px;
+}
 
 
 @media (max-width: 1440px) {
     .details {
         max-width: 98%;
     }
-     .details > div{
+     /* .details > div{
         max-width: 98%;
         margin: auto;
 
-    }
+    } */
 
 }
 
@@ -297,6 +300,10 @@
         margin: auto;
     }
 
+    .details > div{
+        padding: 0px 20px;
+
+    }
  
 }
 

@@ -1,6 +1,6 @@
 .footer {
   height: 100%;
-  padding: 5em 2em;
+  padding: 5em 0px;
   position: relative;
   background-color: #f2f2f2;
 }
@@ -15,13 +15,15 @@
 .mid {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  /* align-items: center; */
   max-width: 1440px;
-  width: 100%;
+  /* width: 100%; */
   margin: auto;
   height: 100%;
-  padding: 1em 0 6em;
+  padding: 0px 10%;
+  padding-bottom: 6em;
 }
+
 .first {
   display: flex;
   flex-direction: column;
@@ -39,7 +41,7 @@
   font-weight: 400;
   font-size: 20px;
   line-height: 30px;
-  margin: 0 0 1em;
+  margin: 1em 0em;
   color: #000000;
 }
 
@@ -55,15 +57,15 @@
 
 .second {
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   justify-content: center;
   gap: 2em;
 }
 .second ul p {
   font-family: "Poppins";
   font-style: normal;
-  font-weight: 500;
-  font-size: 25px;
+  font-weight: 600;
+  font-size: 20px;
   line-height: 38px;
   margin: 0 0 1em;
   color: #000000;
@@ -88,12 +90,12 @@
 }
 
 
-@media (max-width: 1440px) {
+/* @media (max-width: 1440px) {
   .mid{
     max-width: 98%;
   }
   
-}
+} */
 
 @media (max-width: 1100px) {
   .mid {
@@ -134,3 +136,9 @@
 
 }
 
+@media (max-width: 500px) {
+  .mid {
+    padding: 0 20px;
+    margin-bottom: 100px;
+  }
+}

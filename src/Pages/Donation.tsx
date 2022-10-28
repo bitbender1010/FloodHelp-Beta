@@ -17,7 +17,7 @@ const Donation = () => {
 
         <div className="input">
           <AiOutlineSearch className="dIcon" />
-          <input type="text" placeholder="search NGOs and Location"/>
+          <input type="text" placeholder="search NGOs and locations"/>
         </div>
 
         <div className="region">
@@ -40,6 +40,8 @@ const Donation = () => {
         </div>
       </header>
 
+
+      <a href="/details">
       <div className="donate">
         <div className="donateCap">
           <div className="dCap">
@@ -222,6 +224,9 @@ const Donation = () => {
           End of result <BsFillFlagFill />
         </p>
       </div>
+      </a>
+
+
       <div className="rg">
         <Register />
       </div>

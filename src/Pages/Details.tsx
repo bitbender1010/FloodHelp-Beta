@@ -200,7 +200,7 @@ const Details = () => {
                     </div>
                   </div>
                 </div>
-                <button className="btnW hgh">Share</button>
+                <button className="btnW hgh">See all</button>
               </div>
             </Bounce>
           </div>

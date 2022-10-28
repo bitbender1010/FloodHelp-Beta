@@ -25,7 +25,7 @@ function Home() {
           </p>
 
           <div className="btn">
-            <button>Donate Now</button>
+          <a href="/donation" className="btn-link"> <button>Donate Now</button> </a>
             <div className="play">
               <BsPlay className="icon" />
             </div>

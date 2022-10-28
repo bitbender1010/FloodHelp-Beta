@@ -312,7 +312,6 @@ body {
 @media (max-width: 1024px) {
   .header {
     flex-direction: column;
-    padding: 0 2em;
   }
   .text {
     margin-right: auto;
@@ -323,9 +322,9 @@ body {
     margin-top: 10em;
   }
 
-  .nav {
+  /* .nav {
     padding: 0 2em;
-  }
+  } */
 
 }
 
@@ -403,7 +402,7 @@ body {
 }
 
 @media (max-width: 500px) {
-  .header {
+  .header, .about {
     padding: 0 20px;
   }
   .headImg {

@@ -26,24 +26,20 @@ const Footer = () => {
         <div className="second">
           <ul>
             <p>Quick Link</p>
+            <li>FAQ</li>
             <li>Donations</li>
-            <li>Features</li>
-            <li>Catigories</li>
+            <li>Awareness</li>
             <li>Volunteer</li>
           </ul>
           <ul>
-            <p>Donations</p>
-            <li>Donations</li>
-            <li>Features</li>
-            <li>Catigories</li>
-            <li>Volunteer</li>
+            <p>Resources</p>
+            <li>Campaigns</li>
+            <li>Register NGO</li>
           </ul>
           <ul>
-            <p>About Us</p>
-            <li>Donations</li>
-            <li>Features</li>
-            <li>Catigories</li>
-            <li>Volunteer</li>
+            <p>Stay In Touch</p>
+            <li>About us</li>
+            <li>Contact us</li>
           </ul>
         </div>
       </div>
