@@ -12,8 +12,7 @@ const Footer = () => {
         <div className="first">
           <img src="fh3.png" alt="" />
           <p>
-            Floodhelp is a digital plartform for collection of donation to be
-            distributed to people in need
+            Floodhelp is a digital plartform that helps NGOs raise money and recieve other forms of donations to help flood victims.
           </p>
           <div className="social">
             <FaFacebookF className="Ficon" />

@@ -73,7 +73,7 @@ function Home() {
 
         <div className="aboutCap">
           <div className="capCon">
-            <img src="fhh1.png" alt="" />
+            <img src="gifts.svg" alt="" />
 
             <h2>Donations</h2>
             <p>
@@ -85,7 +85,7 @@ function Home() {
             </a>
           </div>
           <div className="capCon">
-            <img src="fhh3.png" alt="" />
+            <img src="aware.svg" alt="" />
 
             <h2>Awareness</h2>
             <p>
@@ -97,7 +97,7 @@ function Home() {
             </a>
           </div>
           <div className="capCon">
-            <img src="fhh2.png" alt="" />
+            <img src="loves.svg" alt="" />
 
             <h2>Volunteering</h2>
             <p>
